@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en Santander</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Turismo en Santander</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de Santander</a></li>
+                <li><a href="#places">Lugares de Interés</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bienvenido a Santander</h2>
+        <p>Descubre lo mejor que Santander tiene para ofrecer.</p>
+    </section>
+
+    <section id="about">
+        <h2>Acerca de Santander</h2>
+        <p>Santander es una ciudad portuaria en el norte de España, famosa por sus playas y el Palacio de la Magdalena. Es un destino turístico popular debido a su combinación de belleza natural y riqueza cultural.</p>
+    </section>
+
+    <section id="places">
+        <h2>Lugares de Interés</h2>
+        <div class="place">
+            <h3>Palacio de la Magdalena</h3>
+            <p>Un palacio histórico ubicado en la península de La Magdalena. Es uno de los principales puntos turísticos de Santander.</p>
+        </div>
+        <div class="place">
+            <h3>Playa del Sardinero</h3>
+            <p>Una de las playas más famosas de Santander, conocida por su arena dorada y aguas cristalinas.</p>
+        </div>
+        <div class="place">
+            <h3>Centro Botín</h3>
+            <p>Un centro de arte y cultura diseñado por el arquitecto Renzo Piano, situado en la bahía de Santander.</p>
+        </div>
+        <!-- Añade más lugares aquí -->
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Para más información, por favor contáctanos.</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
